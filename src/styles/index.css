@@ -1,0 +1,23 @@
+/* imports */
+@import url("navbar.css");
+@import url("home.css");
+
+/* variables */
+:root {
+  --blue: #212a3e;
+  --blue-hover: #171f2e;
+  --yellow: #f9d949;
+  --yellow-hover: #dbb923;
+  --white: #f1f6f9;
+  --gray: #c8c4c4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--blue);
+  color: white;
+}

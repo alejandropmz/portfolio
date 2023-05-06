@@ -1,0 +1,99 @@
+#all_nav {
+  padding: 0;
+}
+
+#nav-container {
+  background: var(--blue);
+  border-bottom: var(--yellow) 4px solid;
+  padding: 20px 120px;
+}
+
+#nav-container * {
+  color: white;
+  font-size: 1.1rem;
+}
+
+#nav-container *:hover {
+  color: var(--gray);
+  transition: all ease-in 0.5s;
+}
+
+#navbarSupportedContent ul li {
+  border: solid var(--blue);
+  border-width: 0 0 5px 0;
+  border-radius: 5px 5px;
+  margin: 0 4px;
+}
+
+#navbarSupportedContent ul li:hover {
+  border-color: var(--white);
+  transition: all ease-in 0.5s;
+}
+
+#navbarSupportedContent ul #nav-resumen-li {
+  border: none;
+}
+
+#nav-resumen {
+  background-color: var(--yellow);
+  color: var(--blue);
+  border: solid var(--yellow) 1px;
+  border-radius: 4px;
+  transition-property: background-color, margin-left;
+  transition-duration: 300ms;
+}
+
+#nav-resumen:hover {
+  border: solid 1px var(--yellow);
+  background-color: var(--blue);
+  color: var(--yellow);
+  margin-left: 8px;
+}
+
+/* form */
+#nav-form {
+  height: 30px;
+}
+
+#nav-form input {
+  border-radius: 20px;
+  background: transparent;
+  width: 0%;
+}
+
+#nav-form input.form-control {
+  width: 100%;
+  transition-property: width;
+  transition-duration: 100ms;
+}
+
+#nav-form i {
+  color: var(--gray);
+  font-size: 1.9rem;
+  cursor: pointer;
+}
+
+#nav-form input::placeholder {
+  color: var(--gray);
+  outline: none;
+  font-size: 0.9rem;
+}
+
+#nav-form input:active,
+#nav-form input:focus,
+#nav-form input:focus-visible {
+  outline: none;
+}
+
+/* media querys */
+
+@media screen and (max-width: 992px) {
+  #nav-container {
+    padding: 20px 10px;
+  }
+
+  #nav-resumen {
+    width: 15%;
+    padding: 10px;
+  }
+}

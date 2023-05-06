@@ -1,0 +1,69 @@
+#home-container {
+  padding: 50px 120px;
+}
+
+#home-container p {
+  font-size: 18px;
+}
+
+/* about me */
+
+#about-me-container {
+  margin: 60px 0 30px;
+}
+
+#about-me-container h1 {
+  text-align: end;
+  padding-right: 20px;
+}
+
+#contact-button {
+  border: 2px solid var(--yellow);
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  background: transparent;
+  color: white;
+}
+
+#contact-button:hover {
+  background: var(--yellow);
+  color: var(--blue);
+  transition: all ease-in-out 0.5s;
+}
+
+#about-left {
+  padding: 0;
+}
+
+#about-left img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#about-right p {
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+.icons {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  text-align: end;
+}
+
+.icons i {
+  font-size: 3rem;
+  margin: 0 5px;
+}
+
+/* media querys */
+
+@media screen and (max-width: 576px) {
+  #home-container {
+    padding: 50px 20px;
+    text-align: justify;
+    padding: 10px 0;
+  }
+}
