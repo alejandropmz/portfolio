@@ -47,8 +47,23 @@
 
 #about-right p {
   padding: 10px 20px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: justify;
+}
+
+.skills-list div p {
+  margin: 0;
+}
+
+.skills-list li {
+  list-style: none;
+}
+
+.skills-list li div i {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: var(--yellow);
 }
 
 .icons {
@@ -74,20 +89,23 @@
   margin: 20px 0 30px;
 }
 
-.technologies i {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-size: 7rem;
-}
-
 .technologies div img {
   width: 120px;
   margin: 8px 0;
+  transition: all ease-in-out 500ms;
+}
+
+.technologies div img:hover {
+  padding: 8px;
 }
 
 #js-icon {
   border: solid 1px var(--blue);
+  transition: all ease-in-out 500ms;
+}
+
+#js-icon:hover {
+  border: transparent;
 }
 
 /* media querys */

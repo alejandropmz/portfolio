@@ -11,7 +11,10 @@ export const AboutMe = () => {
             alt=""
           />
         </div>
-        <div id="about-right" className="col-sm-12 col-md-8 d-flex flex-column justify-content-between">
+        <div
+          id="about-right"
+          className="col-sm-12 col-md-8 d-flex flex-column justify-content-between"
+        >
           <p>
             Desarrollador de Software Full Stack, viviendo actualmente en
             Bogotá, Colombia. Actualmente me dedico a tiempo completo a trabajar
@@ -19,6 +22,74 @@ export const AboutMe = () => {
             buena comunicación y entendimiento que busca siempre hacer un buen
             trabajo en el entorno laboral donde se encuentra. Positivo y siempre
             abierto a nuevas experiencias y aprendizajes 🖥
+            <br />
+            <br />
+            <div className="d-flex">
+              <ul className="skills-list">
+                <li>
+                  <div className="d-flex">
+                    <p>Comunicación:</p>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star-half"></i>
+                  </div>
+                </li>
+                <li>
+                  <div className="d-flex">
+                    <p>Aprendizaje:</p>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bx-star"></i>
+                  </div>
+                </li>
+                <li>
+                  <div className="d-flex">
+                    <p>Trabajo en equipo:</p>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                  </div>
+                </li>
+              </ul>
+              <ul className="skills-list">
+                <li>
+                  <div className="d-flex">
+                    <p>Estrés:</p>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bx-star"></i>
+                    <i className="bx bx-star"></i>
+                    <i className="bx bx-star"></i>
+                    <i className="bx bx-star"></i>
+                  </div>
+                </li>
+                <li>
+                  <div className="d-flex">
+                    <p>Disciplina:</p>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bx-star"></i>
+                  </div>
+                </li>
+                <li>
+                  <div className="d-flex">
+                    <p>Responsabilidad:</p>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                    <i className="bx bxs-star"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </p>
           <div className="icons">
             <i className="bx bxl-github"></i>
