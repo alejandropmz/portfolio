@@ -1,5 +1,9 @@
+.general-padding {
+  padding: 0 120px;
+}
+
 #home-container {
-  padding: 50px 120px;
+  padding: 50px 0px;
 }
 
 #home-container p {
@@ -58,10 +62,38 @@
   margin: 0 5px;
 }
 
+/* Projects */
+
+#technologies-container {
+  padding: 20px 0;
+  background-color: var(--yellow);
+  color: var(--blue);
+}
+
+#technologies-container h1 {
+  margin: 20px 0 30px;
+}
+
+.technologies i {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 7rem;
+}
+
+.technologies div img {
+  width: 120px;
+  margin: 8px 0;
+}
+
+#js-icon {
+  border: solid 1px var(--blue);
+}
+
 /* media querys */
 
 @media screen and (max-width: 576px) {
-  #home-container {
+  .general-padding {
     padding: 50px 20px;
     text-align: justify;
     padding: 10px 0;

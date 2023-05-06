@@ -2,7 +2,7 @@ import React from "react";
 
 export const AboutMe = () => {
   return (
-    <div id="about-me-container">
+    <div id="about-me-container" className="general-padding">
       <h1>¿Quién es Alejandro?</h1>
       <div className="row about-header">
         <div id="about-left" className="col-sm-12 col-md-4">

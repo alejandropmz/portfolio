@@ -29,11 +29,7 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link
-                  to={"/"}
-                  className="nav-link active"
-                  aria-current="page"
-                >
+                <Link to={"/"} className="nav-link active" aria-current="page">
                   Inicio
                 </Link>
               </li>
@@ -44,17 +40,17 @@ export const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to={""}>
-                  Proyectos
+                  Tecnologías
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to={""}>
+                Proyectos
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to={""}>
                   Blog
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to={""}>
-                  Tecnologías
                 </Link>
               </li>
               <li className="nav-item">
