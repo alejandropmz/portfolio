@@ -24,8 +24,8 @@ export const AboutMe = () => {
             abierto a nuevas experiencias y aprendizajes 🖥
             <br />
             <br />
-            <div className="d-flex">
-              <ul className="skills-list">
+            <div className="row d-flex">
+              <ul className="skills-list col-md-12 col-lg-6">
                 <li>
                   <div className="d-flex">
                     <p>Comunicación:</p>
@@ -57,7 +57,7 @@ export const AboutMe = () => {
                   </div>
                 </li>
               </ul>
-              <ul className="skills-list">
+              <ul className="skills-list col-md-12 col-lg-6">
                 <li>
                   <div className="d-flex">
                     <p>Estrés:</p>
