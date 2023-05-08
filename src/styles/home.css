@@ -163,6 +163,28 @@
   color: white;
 }
 
+/* Blog home view */
+
+#mini-view-container {
+  overflow: hidden;
+  margin: 10px 5px;
+  border-radius: 5px;
+  border: solid 2px var(--blue);
+
+}
+
+#mini-view-container img {
+  width: 100%;
+}
+
+#mini-view-container p {
+  height: 100%;
+  background-color: var(--yellow-hover);
+  color: var(--blue);
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 10px;
+}
 /* media querys */
 
 @media screen and (max-width: 576px) {
