@@ -135,6 +135,7 @@
 }
 
 .techs ul {
+  margin: 0;
   list-style: none;
 }
 
@@ -185,7 +186,7 @@
 
 .card #read-more {
   text-decoration: none;
-  width: auto;
+  width: 70%;
   border: none;
   border-radius: 5px;
   font-size: 1.2rem;
@@ -194,12 +195,12 @@
   color: white;
   transition-property: width, margin-left;
   transition-duration: 1800ms, 1200ms;
-  transition-delay: 0ms, 0ms;
+  transition-delay: 0ms, 100ms;
 }
 
 .card #read-more:hover {
-  margin-left: 40px;
-  width: 70%;
+  margin-left: 50px;
+  width: 60%;
 }
 
 #no-carousel {
@@ -272,6 +273,11 @@
     height: 100%;
     padding: 10px 5px;
     font-size: 1rem;
+  }
+
+  .techs ul li img {
+    width: 30px;
+    margin: 0 1px;
   }
 }
 

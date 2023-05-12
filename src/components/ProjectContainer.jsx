@@ -9,6 +9,7 @@ export const ProjectContainer = ({
   tech4,
   tech5,
   tech6,
+  tech7,
   title,
   description,
   link
@@ -38,6 +39,9 @@ export const ProjectContainer = ({
             </li>
             <li>
               <img src={tech6} alt="" />
+            </li>
+            <li>
+              <img src={tech7} alt="" />
             </li>
           </ul>
         </div>

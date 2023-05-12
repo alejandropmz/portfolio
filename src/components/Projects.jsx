@@ -2,7 +2,7 @@ import React from "react";
 import { ProjectContainer } from "./ProjectContainer";
 
 /* videos */
-import starwars from "../styles/videos/starwars-blog-video.mp4";
+import clinic from "../styles/videos/clinic-project.mp4";
 import sozial from "../styles/videos/sozial-video.mp4";
 
 /* tecnologías */
@@ -28,17 +28,17 @@ const MYSQL =
 export const Projects = () => {
   const projects = [
     {
-      video: starwars,
-      techs: [HTML, CSS, REACT, BOOTSTRAP],
-      title: "Starwars blog",
+      video: clinic,
+      techs: [HTML, CSS, BOOTSTRAP, JAVASCRIPT, PYTHON, FLASK, MYSQL],
+      title: "Aplicación de control de pacientes",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nobis perspiciatis et neque officiis, similique molestiae maxime abLorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nobis perspiciatis et neque officiis, similique molestiae maxime abLorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nobis perspiciatis et neque officiis, similique molestiae maxime ab",
+        "Aplicación la cual como fin tiene manejar pacientes y lo que conlleva con ellos. Maneja base de datos mySQL para las asignación, control y eliminación de citas. Citas las cuales están relacionadas a un paciente y factura en específico para llevar el orden e integridad de datos para la clínica que utilice la herramienta. Cuenta de igual manera con un sistema de registro y validación para los usuarios que manejen información confidencial de alguna clínica. Toda la información registrada queda vinculada a una fecha de creación o eliminación para que quien la esté utilizando tenga acceso a su historial de uso.",
       link: "https://github.com/alejandropmz/starwars-blog",
     },
     {
       video: sozial,
-      techs: [HTML, CSS, REACT, BOOTSTRAP, PYTHON, SQLALCHEMY],
-      title: "Sozial social media",
+      techs: [HTML, CSS, REACT, JAVASCRIPT, BOOTSTRAP, PYTHON, SQLALCHEMY],
+      title: `Red social "Sozial"`,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nobis perspiciatis et neque officiis, similique molestiae maxime abLorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nobis perspiciatis et neque officiis, similique molestiae maxime abLorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nobis perspiciatis et neque officiis, similique molestiae maxime ab",
       link: "https://github.com/Alvarojavier22/Proyecto-Sozial",
@@ -57,6 +57,7 @@ export const Projects = () => {
           tech4={project.techs[3]}
           tech5={project.techs[4]}
           tech6={project.techs[5]}
+          tech7={project.techs[6]}
           title={project.title}
           description={project.description}
           link={project.link}
