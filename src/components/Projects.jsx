@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ProjectContainer } from "./ProjectContainer";
 
 /* videos */
@@ -33,7 +34,7 @@ export const Projects = () => {
       title: "Aplicación de control de pacientes",
       description:
         "Aplicación la cual como fin tiene manejar pacientes y lo que conlleva con ellos. Maneja base de datos mySQL para las asignación, control y eliminación de citas. Citas las cuales están relacionadas a un paciente y factura en específico para llevar el orden e integridad de datos para la clínica que utilice la herramienta. Cuenta de igual manera con un sistema de registro y validación para los usuarios que manejen información confidencial de alguna clínica. Toda la información registrada queda vinculada a una fecha de creación o eliminación para que quien la esté utilizando tenga acceso a su historial de uso.",
-      link: "https://github.com/alejandropmz/starwars-blog",
+      link: "https://github.com/alejandropmz/clinic-project",
     },
     {
       video: sozial,
@@ -63,6 +64,9 @@ export const Projects = () => {
           link={project.link}
         />
       ))}
+      <div className="d-flex justify-content-center">
+        <Link className="normal-yellow-button">Ver más proyectos</Link>
+      </div>
     </div>
   );
 };

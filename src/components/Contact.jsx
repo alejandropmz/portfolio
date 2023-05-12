@@ -13,19 +13,19 @@ export const Contact = () => {
             <p>Bogotá, Colombia</p>
             <p>alejandropacheco2497@gmail.com</p>
             <div id="social-icons">
-              <a href="">
+              <a href="https://github.com/alejandropmz" target="_blank" rel="noreferrer">
                 <i className="bx bxl-github"></i>
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/alejandropmz/" target="_blank" rel="noreferrer">
                 <i className="bx bxl-linkedin"></i>
               </a>
-              <a href="">
+              <a href="https://www.youtube.com/@alejandropacheco5420" target="_blank" rel="noreferrer">
                 <i className="bx bxl-youtube"></i>
               </a>
-              <a href="">
+              <a href="https://twitter.com/alejandropachem" target="_blank" rel="noreferrer">
                 <i className="bx bxl-twitter"></i>
               </a>
-              <a href="">
+              <a href="mailto:alejandropacheco2497@gmail.com" target="_blank" rel="noreferrer">
                 <i className="bx bx-envelope"></i>
               </a>
             </div>
@@ -38,7 +38,7 @@ export const Contact = () => {
               <br />
               <input placeholder="Mensaje" type="text" />
               <br />
-              <button type="submit">Enviar</button>
+              <button className="normal-yellow-button" type="submit">Enviar</button>
             </form>
           </div>
         </div>

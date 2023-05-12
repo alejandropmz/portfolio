@@ -52,7 +52,7 @@ export const ProjectContainer = ({
             <h2>{title}</h2>
             <p>{description}</p>
           </div>
-          <a href={link} target="_blank" className="d-flex justify-content-end">
+          <a rel="noreferrer" href={link} target="_blank" className="d-flex justify-content-end">
             <button id="contact-button">
               Conoce más <i className="bx bxl-github"></i>
             </button>

@@ -126,6 +126,18 @@
   text-align: end;
 }
 
+#projects-general-container .normal-yellow-button {
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 20px 0;
+  transition-property: background-color;
+  transition-duration: 500ms;
+}
+
+#projects-general-container .normal-yellow-button:hover {
+  background-color: var(--yellow-hover);
+}
+
 #project-container {
   margin-top: 20px;
 }
@@ -252,7 +264,7 @@
   color: #a09e9e;
 }
 
-#footer-form button {
+.normal-yellow-button {
   background-color: var(--yellow);
   color: var(--blue);
   border: solid var(--yellow) 1px;
