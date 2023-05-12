@@ -129,7 +129,7 @@
 #projects-general-container .normal-yellow-button {
   padding: 10px 20px;
   text-decoration: none;
-  margin: 20px 0;
+  margin: 40px 0 20px;
   transition-property: background-color;
   transition-duration: 500ms;
 }
@@ -158,10 +158,15 @@
 
 .description {
   height: 100%;
-  padding: 40px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: justify;
+}
+
+.description #title {
+  text-align: center;
 }
 
 .description a {
@@ -287,6 +292,10 @@
     text-align: justify;
   }
 
+  #home-container p {
+    font-size: 16px;
+  }
+
   #about-right p {
     height: 100%;
     padding: 10px 5px;
@@ -298,6 +307,11 @@
     margin: 0 1px;
   }
 
+  .techs {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
   #project-info {
     display: block;
     margin: auto;
@@ -306,6 +320,18 @@
   #project-info * {
     margin: 10px 0;
     text-align: center;
+  }
+
+  .description {
+    padding: 0 10px;
+  }
+
+  .description div h2 {
+    text-align: center;
+  }
+
+  .description div p {
+    font-size: 16px;
   }
 }
 

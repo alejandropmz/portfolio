@@ -19,7 +19,7 @@ export const ProjectContainer = ({
     <div id="project-container" className="row">
       <div className="col-sm-12 col-md-6">
         <div className="project d-flex justify-content-center">
-          <ReactPlyer width={"80%"} playing loop muted url={video} />
+          <ReactPlyer id="project-video" width={"80%"} playing loop muted url={video} />
         </div>
         <div className="techs">
           <ul className="d-flex">
@@ -50,7 +50,7 @@ export const ProjectContainer = ({
       <div className="col-sm-12 col-md-6">
         <div className="description">
           <div>
-            <h2>{title}</h2>
+            <h2 id="title">{title}</h2>
             <p>{description}</p>
           </div>
           {!status ? (
