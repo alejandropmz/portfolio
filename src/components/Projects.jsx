@@ -35,14 +35,16 @@ export const Projects = () => {
       description:
         "Aplicación la cual como fin tiene manejar pacientes y lo que conlleva con ellos. Maneja base de datos mySQL para las asignación, control y eliminación de citas. Citas las cuales están relacionadas a un paciente y factura en específico para llevar el orden e integridad de datos para la clínica que utilice la herramienta. Cuenta de igual manera con un sistema de registro y validación para los usuarios que manejen información confidencial de alguna clínica. Toda la información registrada queda vinculada a una fecha de creación o eliminación para que quien la esté utilizando tenga acceso a su historial de uso.",
       link: "https://github.com/alejandropmz/clinic-project",
+      status: false,
     },
     {
       video: sozial,
       techs: [HTML, CSS, REACT, JAVASCRIPT, BOOTSTRAP, PYTHON, SQLALCHEMY],
       title: `Red social "Sozial"`,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nobis perspiciatis et neque officiis, similique molestiae maxime abLorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nobis perspiciatis et neque officiis, similique molestiae maxime abLorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nobis perspiciatis et neque officiis, similique molestiae maxime ab",
+        "Red social donde se puede interactuar entre usuarios mediante comentarios e interacciones. Cuenta con un almacenamiento de información para tener en cuenta cuantos usuarios y que usuarios han ido reaccionando en distintas publicaciones. Se puede cargar y renderizar tanto imágenes como videos. La aplicación cuenta también con un apartado de ventas, donde el usuario registrado puede publicar un producto y comercializarlo. Para poder ingresar a la aplicación es necesario estar registrado en la base de datos para contar así con un usuario válido.",
       link: "https://github.com/Alvarojavier22/Proyecto-Sozial",
+      status: false,
     },
   ];
 
@@ -50,19 +52,22 @@ export const Projects = () => {
     <div id="projects-general-container" className="general-padding">
       <h1>Proyectos</h1>
       {projects.map((project, index) => (
-        <ProjectContainer
-          video={project.video}
-          tech1={project.techs[0]}
-          tech2={project.techs[1]}
-          tech3={project.techs[2]}
-          tech4={project.techs[3]}
-          tech5={project.techs[4]}
-          tech6={project.techs[5]}
-          tech7={project.techs[6]}
-          title={project.title}
-          description={project.description}
-          link={project.link}
-        />
+        <span key={index}>
+          <ProjectContainer
+            video={project.video}
+            tech1={project.techs[0]}
+            tech2={project.techs[1]}
+            tech3={project.techs[2]}
+            tech4={project.techs[3]}
+            tech5={project.techs[4]}
+            tech6={project.techs[5]}
+            tech7={project.techs[6]}
+            title={project.title}
+            description={project.description}
+            link={project.link}
+            status={project.status}
+          />
+        </span>
       ))}
       <div className="d-flex justify-content-center">
         <Link className="normal-yellow-button">Ver más proyectos</Link>

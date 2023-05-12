@@ -12,7 +12,8 @@ export const ProjectContainer = ({
   tech7,
   title,
   description,
-  link
+  link,
+  status,
 }) => {
   return (
     <div id="project-container" className="row">
@@ -52,11 +53,26 @@ export const ProjectContainer = ({
             <h2>{title}</h2>
             <p>{description}</p>
           </div>
-          <a rel="noreferrer" href={link} target="_blank" className="d-flex justify-content-end">
-            <button id="contact-button">
-              Conoce más <i className="bx bxl-github"></i>
-            </button>
-          </a>
+          {!status ? (
+            <div id="project-info">
+              <p>
+                En progreso <i className="bx bx-loader-circle"></i>
+              </p>
+              <a rel="noreferrer" href={link} target="_blank">
+                <button id="contact-button">
+                  Conoce más <i className="bx bxl-github"></i>
+                </button>
+              </a>
+            </div>
+          ) : (
+            <div className="d-flex justify-content-end align-items-center">
+              <a rel="noreferrer" href={link} target="_blank">
+                <button id="contact-button">
+                  Conoce más <i className="bx bxl-github"></i>
+                </button>
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </div>

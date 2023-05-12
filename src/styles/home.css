@@ -164,16 +164,22 @@
   justify-content: space-between;
 }
 
-.description div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-}
-
 .description a {
   text-decoration: none;
   color: white;
+}
+
+#project-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#project-info p {
+  padding-bottom: 5px;
+  margin: 0;
+  border: solid var(--yellow-hover);
+  border-width: 0 0 1px;
 }
 
 /* Blog home view */
@@ -290,6 +296,16 @@
   .techs ul li img {
     width: 30px;
     margin: 0 1px;
+  }
+
+  #project-info {
+    display: block;
+    margin: auto;
+  }
+
+  #project-info * {
+    margin: 10px 0;
+    text-align: center;
   }
 }
 
