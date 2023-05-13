@@ -34,6 +34,15 @@
   border: none;
 }
 
+#nav-resumen * {
+  color: var(--blue);
+}
+
+
+#nav-resumen *:hover {
+  color: var(--yellow);
+}
+
 #nav-resumen {
   background-color: var(--yellow);
   color: var(--blue);

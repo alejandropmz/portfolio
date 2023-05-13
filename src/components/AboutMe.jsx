@@ -92,9 +92,27 @@ export const AboutMe = () => {
             </div>
           </p>
           <div className="icons">
-            <i className="bx bxl-github"></i>
-            <i className="bx bxl-linkedin"></i>
-            <i className="bx bxl-youtube"></i>
+            <a
+              href="https://github.com/alejandropmz"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bx bxl-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/alejandropmz/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bx bxl-linkedin"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/@alejandropacheco5420"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bx bxl-youtube"></i>
+            </a>
           </div>
         </div>
       </div>

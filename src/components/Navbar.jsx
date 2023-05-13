@@ -1,5 +1,6 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
+import alejandroCV  from "../styles/cv-alejandropacheco.pdf";
 
 export const Navbar = () => {
   const [visible, setVisible] = useState();
@@ -54,9 +55,15 @@ export const Navbar = () => {
                 </Link>
               </li>
               <li id="nav-resumen-li" className="nav-item">
-                <Link id="nav-resumen" className="nav-link" to={""}>
-                  CV
-                </Link>
+                <a
+                  download
+                  href={alejandroCV}
+                  rel="noreferrer"
+                  id="nav-resumen"
+                  className="nav-link"
+                >
+                  CV <i className="bx bxs-download"></i>
+                </a>
               </li>
             </ul>
             <form id="nav-form" className="d-flex" role="search">
