@@ -13,7 +13,7 @@ export const Navbar = () => {
     <div>
       <nav id="all_nav" className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid" id="nav-container">
-          <Link to={"/home"} className="navbar-brand">
+          <Link to={"/"} className="navbar-brand">
             Alejandro Pacheco
           </Link>
           <button
@@ -40,7 +40,7 @@ export const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to={""}>
+                <Link className="nav-link" to={"/proyectos"}>
                   Proyectos
                 </Link>
               </li>
