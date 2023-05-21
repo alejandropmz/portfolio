@@ -10,11 +10,21 @@ export const Home = () => {
   return (
     <div id="home-container">
       <HomeHeader />
-      <AboutMe />
-      <Technologies />
-      <Projects />
-      <BlogHome />
-      <Contact />
+      <div id="about-me">
+        <AboutMe />
+      </div>
+      <div id="techs">
+        <Technologies />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="blogs">
+        <BlogHome />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </div>
   );
 };
